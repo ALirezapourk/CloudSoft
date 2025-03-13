@@ -1,8 +1,12 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Elden Lords";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="fade-in">
+    <h1 class="display-4">⚔️ The Journey Awaits... 🏰</h1> 
+    <hr class="gold-divider">
+    <p>
+        This is no ordinary path, traveler. Ahead lies uncharted lands, forgotten ruins, and trials meant for only the boldest of souls. Shadows stir, ancient forces whisper, and a dragon's roar shakes the heavens, its fiery breath a warning of what’s to come. You will battle, you will rise, and you will carve your legend into the very stone of history.
+    </p>
+        <button class="elden-button" onclick="window.location.href='@Url.Action("Signup", "Home")'">Begin Your Journey</button>
 </div>
